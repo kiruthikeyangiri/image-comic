@@ -1,4 +1,4 @@
-<h1 align="center">GPT Image 2 Prompt Gallery + Agentic Skill + CLI</h1>
+<h1 align="center">Image generate</h1>
 <p align="center"><em>OpenAI GPT Image 2 prompt gallery, image prompt library, agentic skill, and CLI — curated, copy-paste prompts and runnable examples for skill-capable agents.</em></p>
 
 
