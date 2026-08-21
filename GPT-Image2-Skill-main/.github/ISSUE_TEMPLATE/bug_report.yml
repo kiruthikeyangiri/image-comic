@@ -1,0 +1,48 @@
+name: Bug report
+description: Report a CLI, skill, install, or documentation bug.
+title: "[Bug]: "
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting a bug. Please include enough detail for us to reproduce it.
+  - type: textarea
+    id: summary
+    attributes:
+      label: Summary
+      description: What happened?
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: Commands, prompt text, or install steps that trigger the issue.
+      placeholder: |
+        1. Run ...
+        2. See ...
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: Agent runtime, OS, Python version, install method, and CLI version if available.
+      placeholder: |
+        Runtime: Codex / Claude Code / OpenClaw / Hermes Agent / other
+        OS:
+        Python:
+        Install method:
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs or screenshots
+      description: Paste errors, terminal output, or screenshots if useful. Do not include secrets.
+      render: shell

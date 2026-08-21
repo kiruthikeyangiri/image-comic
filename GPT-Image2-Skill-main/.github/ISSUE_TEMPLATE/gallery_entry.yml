@@ -1,0 +1,36 @@
+name: Gallery entry proposal
+description: Suggest a new prompt, image, or category for the gallery.
+title: "[Gallery]: "
+labels: [gallery, enhancement]
+body:
+  - type: textarea
+    id: concept
+    attributes:
+      label: Concept
+      description: What should this prompt/image demonstrate?
+      placeholder: "A multi-panel poster, product render, UI mockup, tattoo design, etc."
+    validations:
+      required: true
+  - type: textarea
+    id: prompt
+    attributes:
+      label: Prompt draft
+      description: Paste the proposed prompt, or describe the prompt pattern.
+    validations:
+      required: true
+  - type: input
+    id: category
+    attributes:
+      label: Suggested category
+      description: Existing category preferred; suggest a new category only if needed.
+  - type: textarea
+    id: source
+    attributes:
+      label: Source / attribution
+      description: If adapted from an outside prompt, include author and source link.
+      placeholder: "Original, or Author + Source URL"
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notes
+      description: Visual quality notes, safety constraints, or examples to compare against.
